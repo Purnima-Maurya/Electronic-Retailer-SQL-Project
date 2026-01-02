@@ -1,6 +1,5 @@
 -- ============================================================
 --  ELECTRONICS RETAILER PROJECT - SQL PORTFOLIO
--- Author: Abdelkarim Mars
 -- Goal: Demonstrate SQL data analysis for an electronics retailer
 -- ============================================================
 
@@ -260,5 +259,6 @@ FROM sales s
 JOIN products p ON s.product_key = p.product_key
 GROUP BY p.category
 ORDER BY total_profit_usd DESC;
+
 
 
